@@ -1,0 +1,83 @@
+body{
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+
+    background:white;
+    background:  url(background.jpg);
+    color:black;
+}
+h1{
+    margin-top: 40px;
+    font-size: 50px;
+    letter-spacing: .1cm;
+    text-shadow: 2px 2px 3px white;
+    color:black;
+}
+.semleb{
+    letter-spacing: .08cm;
+    word-spacing: .2cm;
+    font-weight: 500;
+}
+.calc{
+    margin: 90  px;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px black;
+    background-color: rgba(0, 0, 0, 0.21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+
+}
+.cal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.seno{
+    margin-top: 100px;
+}
+.sem{
+    width: 250px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.Submit{
+    width: 200px;
+    height: 50px;
+    border: 2px solid  black;
+    border-radius: 5px;
+    background: black;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+    color:white;
+
+}
+.scene{
+    font-size: 40px;    
+
+}
+.Submit:hover{
+    background-image: white;
+    transition: all 150ms ease-in-out 0s;
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px white;
+
+}
